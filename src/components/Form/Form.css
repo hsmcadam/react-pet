@@ -1,0 +1,71 @@
+.container{
+    padding: 16px;
+
+}
+
+
+.input{
+    margin: 10px;
+}
+
+#formGoal{
+    position: fixed;
+}
+
+.form {
+    display:none;
+    position: fixed;
+    overflow-x: hidden;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    animation-name: fromtop;
+    animation-duration: 0.4s
+}
+.formButton{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #f41e1e;
+    border: none;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.close{
+    position: absolute;
+    right: 200px;
+    /*position: center;*/
+    cursor: pointer;
+    /*right:350px;*/
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 50px;
+    width: 100px;
+
+}
+
+
+@keyframes fromtop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}

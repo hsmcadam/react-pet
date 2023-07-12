@@ -1,0 +1,53 @@
+
+.add{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: #f41e1e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.goalForm{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #F08080;
+    margin-top: 0px;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .goalForm{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    
+    .goalForm{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    
+}
+      
+      
+      
